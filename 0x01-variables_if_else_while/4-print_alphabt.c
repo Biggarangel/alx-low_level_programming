@@ -1,25 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * main - returns alphabets both except e and q
+ * main - main block
+ * Discription - get a random number and check it
  * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
-	char c;
-
-	c = 'a';
+	char c = 'a';
 
 	while (c <= 'z')
 	{
-		if (c != 'q' && c != 'e')
+		if (c != 'e' && c != 'q');
 		{
 			putchar(c);
-		c++;
 		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
