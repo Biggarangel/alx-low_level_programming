@@ -6,21 +6,15 @@
  */
 int main(void)
 {
-	char c;
+	char ch;
 
-	int d;
-
-	c = 'a';
-	d =0;
-	while (d < 10)
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-		puchar(d + '0');
-		d++;
+		putchar(ch);
 	}
-	while (c >= 'f')
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
