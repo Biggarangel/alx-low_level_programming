@@ -15,10 +15,10 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if ((ch != 'e' && ch != 'q') && c <= 'z')
+		if ((c != 'e' && c != 'q') && c <= 'z')
 		{
-			putchar(ch);
-		ch++;
+			putchar(c);
+		c++;
 		}
 	}
 	putchar('\n');
